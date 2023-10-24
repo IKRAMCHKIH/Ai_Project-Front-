@@ -26,6 +26,7 @@ import { MegaMenuModule } from 'primeng/megamenu';
 import { PanelMenuModule } from 'primeng/panelmenu';
 import { InputTextModule } from 'primeng/inputtext';
 import { CreatActivityComponent } from './creat-activity/creat-activity.component';
+import { ActivityComponent } from './activity/activity.component';
 import { TemplateModule } from './demo/components/template/template.module'; 
 
 
@@ -33,7 +34,7 @@ import { TemplateModule } from './demo/components/template/template.module';
 
 @NgModule({
     declarations: [
-        AppComponent, NotfoundComponent, CreatActivityComponent
+        AppComponent, NotfoundComponent, CreatActivityComponent, ActivityComponent
     ],
     imports: [
         AppRoutingModule,

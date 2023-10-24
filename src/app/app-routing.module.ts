@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { NotfoundComponent } from './demo/components/notfound/notfound.component';
 import { AppLayoutComponent } from "./layout/app.layout.component";
 import { CreatActivityComponent } from './creat-activity/creat-activity.component';
+import { ActivityComponent } from './activity/activity.component';
 import { TemplateComponent } from './demo/components/template/template.component';
 
         
@@ -14,6 +15,7 @@ import { TemplateComponent } from './demo/components/template/template.component
                 path: 'home', component: AppLayoutComponent,
                 children: [
                     { path: '', component: TemplateComponent },
+                    { path: 'Activity', component: ActivityComponent },
                      { path: 'CreatActivity', component: CreatActivityComponent }
            
         ]

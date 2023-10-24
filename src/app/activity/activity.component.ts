@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-creat-activity',
-  templateUrl: './creat-activity.component.html',
-  styleUrls: ['./creat-activity.component.scss']
+  selector: 'app-activity',
+  templateUrl: './activity.component.html',
+  styleUrls: ['./activity.component.scss']
 })
-export class CreatActivityComponent {
+export class ActivityComponent {
   activity: any = {};
 
   onSubmit() {
