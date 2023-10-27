@@ -1,13 +1,12 @@
 import { Component } from '@angular/core';
 import { LayoutService } from 'src/app/layout/service/app.layout.service';
 
+
 @Component({
     selector: 'app-login',
-    templateUrl: './login.component.html',
-    styleUrls: ['./login.component.css']
-
-    /*
-    styles: [`
+    templateUrl: './registration.component.html',
+    styleUrls: ['./registration.component.css']
+   /* styles: [`
         :host ::ng-deep .pi-eye,
         :host ::ng-deep .pi-eye-slash {
             transform:scale(1.6);
@@ -16,7 +15,7 @@ import { LayoutService } from 'src/app/layout/service/app.layout.service';
         }
     `]*/
 })
-export class LoginComponent {
+export class RegistrationComponent {
 
     valCheck: string[] = ['remember'];
 
